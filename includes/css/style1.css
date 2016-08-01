@@ -1,0 +1,341 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features {
+ 	text-align: center;
+ }
+
+ #features img {
+ 	margin: 0 0 20px;
+ }
+
+#hero-img{
+  margin-top: 100px;
+
+}
+#special
+{
+  margin-left:150px;
+
+   border: 2px solid black;
+       width: 860px;
+       background: #fff;
+    margin-top: -150px;
+
+    border: none;
+  position: relative;
+  }
+  #featuresheading
+  {
+    text-align: center;
+  }
+#sp2
+{
+  margin-left:-10px;
+
+   border: 1px solid #F39C12  ;
+   width: 100%;
+float: left;
+padding-top: 16px;
+padding-bottom: 16px;
+
+       background: #fff;
+}
+.os
+{
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
+}
+.bg
+{
+  background-color: grey;
+}
+
+#pp {
+  height:30px;
+  width:110px;
+  margin-left: 10px;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+#res
+{
+margin-top: 40px;
+}
+#jg
+{
+  margin-top: 50px;
+}
+
+.feature
+{
+  margin-left: 0px;
+}
+.hi
+{
+  font-size:40px;
+  margin-top: -100px;
+  margin-left:30px;
+  color: white;
+}
+
+.mp {
+  color:grey;
+  font-size:18px;
+}
+.ml
+{
+  margin-top: 20px;
+  font-size:20px;
+}
+#spm
+ {
+margin-top: 30px;
+font-size:30px;
+color:grey;
+text-align: center;
+}
+#mpm
+{
+  text-align: center;
+  font-size:40px;
+  margin-top: 60px;
+}
+#mn
+{
+  margin-top: 40px;
+
+}
+#ear
+{
+  text-align: center;
+}
+#ear1
+{
+  text-align: center;
+  color: grey;
+}
+
+ul
+{
+  list-style-type: none;
+  display:block;
+  align-items: center;
+  margin-left: -40px;
+
+}
+li a {
+margin-top:20px;
+margin-left:20px;
+}
+.mt
+{
+  color:grey;
+  font-size:30px;
+  text-align: center;
+  margin-top:20px;
+}
+#uk
+{
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+#pos
+{
+  margin-top: 30px;
+}
+#md
+{
+
+
+
+  }
+  footer
+  {
+    background-color: grey;
+    margin-top: 40px;
+    color:white;
+
+
+  }
+  ul{
+
+    margin-top: 40px;
+    margin-bottom:40px;
+    display:block;
+  }
+  #mg
+  {
+      margin-top: 40px;
+
+  }
+  #glass
+  {
+    margin-bottom: 30px;
+
+  }
+  /* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchinput
+{
+  width:100px;
+  margin-top:20px;
+
+}
+#searchbtn
+{
+  margin-top:20px;
+}
+.navbar-brand
+{
+  padding:10px 15px;
+  margin-top: 10px;
+}
+.ra
+{
+  padding-right: 25px;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #mycarousel img
+   {
+     margin-top: 100px;
+   }
+#mycarousel .item
+{
+  height:400px;
+
+}
+#slide1
+{
+  background:url('../../images/front_medium.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_medium.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_medium.jpg')top center no-repeat;
+}
+#slide4
+{
+  background:url('../../images/frt_medium.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_medium.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_medium.jpg')top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item
+  {
+    height:265px;
+      }
+
+  #slide1
+  {
+    background:url('../../images/front_small.jpg')top center no-repeat;
+  }
+  #slide2
+  {
+    background:url('../../images/fro_small.jpg')top center no-repeat;
+  }
+  #slide3
+  {
+    background:url('../../images/fr_small.jpg')top center no-repeat;
+  }
+  #slide4
+  {
+    background:url('../../images/frt_small.jpg')top center no-repeat;
+  }
+  #slide5
+  {
+    background:url('../../images/ft_small.jpg')top center no-repeat;
+  }
+  #slide6
+  {
+    background:url('../../images/f_small.jpg')top center no-repeat;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#mycarousel .item
+{
+  height:500px;
+}
+#slide1
+{
+
+    background:url('../../images/frt_large.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_large.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_large.jpg')top center no-repeat;
+}
+#slide4
+{
+background:url('../../images/front_large.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_large.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_large.jpg')top center no-repeat;
+}
+
+}

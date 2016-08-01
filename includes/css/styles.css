@@ -1,0 +1,303 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#special
+{
+  margin-left:150px;
+
+   border: 2px solid black;
+       width: 860px;
+       background: #fff;
+    margin-top: -150px;
+
+    border: none;
+  position: relative;
+  }
+#sp2
+{
+  margin-left:-10px;
+
+   border: 1px solid #F39C12  ;
+   width: 100%;
+float: left;
+padding-top: 16px;
+padding-bottom: 16px;
+
+       background: #fff;
+}
+.top-bar
+{
+background-color: black;
+heigth:60px;
+width:860px;
+margin-left: -15px;
+
+}
+.right
+{
+  text-align: right;
+  list-style-type: none;
+  margin-right: 0px;
+
+
+}
+li{
+color:white;
+}
+.os
+{
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
+}
+.bg
+{
+  background-color: grey;
+}
+.al
+{
+  margin-top:2px;
+  text-align: center;
+  font-size:20px;
+}
+.kl
+{
+  margin-left: 10px;
+}
+#pp {
+  height:30px;
+  width:110px;
+  margin-left: 10px;
+  font-size: 10px;
+  text-align: center;
+
+}
+.dt
+{
+  height:40px;
+  width:200px;
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+.bl
+{
+  margin-top: -20px;
+  margin-left: 20px;
+  color:grey;
+
+}
+.mg
+{
+  font-size:14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.gf
+{
+  font-size:15px;
+
+}
+.ni
+{
+  margin-left: -13px;
+}
+.ju
+{
+  color:#b78f03;
+  font-size:13px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.ji
+{
+  margin-top: 215px;
+  margin-left: -10px;
+}
+.kj
+{
+  color:#b78f03;
+}
+.jm
+{
+  margin-left: -12px;
+  margin-top:-1px;
+}
+.mo
+{
+  color:#b78f03;
+  font-size:13px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.lk
+{
+  margin-top: 20px;
+}
+.feature
+{
+  margin-left: 130px;
+}
+.hi
+{
+  font-size:50px;
+  margin-top: -310px;
+  margin-left:30px;
+  color: black;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   li a {
+   margin-top:20px;
+   margin-left:20px;
+}
+
+#searchinput
+{
+  width:100px;
+  margin-top:20px;
+}
+#searchbtn
+{
+  margin-top:20px;
+}
+.navbar-brand
+{
+  padding:10px 15px;
+  margin-top: 10px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #mycarousel
+   {
+     margin-top: 20px;
+   }
+   #mycarousel .item
+   {
+     height:400px;
+   }
+#slide1
+{
+  background:url('../../images/front_medium.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_medium.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_medium.jpg')top center no-repeat;
+}
+#slide4
+{
+  background:url('../../images/frt_medium.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_medium.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_medium.jpg')top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item
+  {
+    height:350px;
+  }
+  #slide1
+  {
+    background:url('../../images/front_small.jpg')top center no-repeat;
+  }
+  #slide2
+  {
+    background:url('../../images/fro_small.jpg')top center no-repeat;
+  }
+  #slide3
+  {
+    background:url('../../images/fr_small.jpg')top center no-repeat;
+  }
+  #slide4
+  {
+    background:url('../../images/frt_small.jpg')top center no-repeat;
+  }
+  #slide5
+  {
+    background:url('../../images/ft_small.jpg')top center no-repeat;
+  }
+  #slide6
+  {
+    background:url('../../images/f_small.jpg')top center no-repeat;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#mycarousel .item
+{
+  height:500px;
+}
+#slide1
+{
+  background:url('../../images/front_large.jpg')top center no-repeat;
+}
+#slide2
+{
+  background:url('../../images/fro_large.jpg')top center no-repeat;
+}
+#slide3
+{
+  background:url('../../images/fr_large.jpg')top center no-repeat;
+}
+#slide4
+{
+  background:url('../../images/frt_large.jpg')top center no-repeat;
+}
+#slide5
+{
+  background:url('../../images/ft_large.jpg')top center no-repeat;
+}
+#slide6
+{
+  background:url('../../images/f_large.jpg')top center no-repeat;
+}
+
+}
