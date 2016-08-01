@@ -23,7 +23,14 @@ Notes:	 Hand coded for Udemy.com
 
 #hero-img{
   margin-top: 100px;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
 
+}
+#hero-img:hover
+{
+  opacity: 1.0;
+   filter: alpha(opacity=100);
 }
 #special
 {
@@ -218,13 +225,14 @@ margin-left:20px;
 {
   padding-right: 25px;
 }
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
 
    #mycarousel img
    {
-     margin-top: 100px;
+
    }
 #mycarousel .item
 {
